@@ -1,0 +1,32 @@
+{
+  "name": "lokal-publishcheck",
+  "version": "1.0.4",
+  "description": "Used to test npm/lokal. Only useful if you are making changes to npm/lokal.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtificerEntertainment/lokal-publishcheck.git"
+  },
+  "keywords": [
+    "lokal"
+  ],
+  "author": "Artificer Entertainment",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtificerEntertainment/lokal-publishcheck/issues"
+  },
+  "homepage": "https://github.com/ArtificerEntertainment/lokal-publishcheck#readme",
+  "dependencies": {
+    "lokal": "^1.0.3"
+  },
+  "localDependencies": {
+    "dependency0": "test/dependency0.js",
+    "dependency1": "test/dependency1.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
