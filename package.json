@@ -1,6 +1,6 @@
 {
   "name": "lokal-publishcheck",
-  "version": "1.0.4",
+  "version": "1.1.1",
   "description": "Used to test npm/lokal. Only useful if you are making changes to npm/lokal.",
   "main": "lib/index.js",
   "scripts": {
@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/ArtificerEntertainment/lokal-publishcheck#readme",
   "dependencies": {
-    "lokal": "^1.0.3"
+    "lokal": "1.1.1"
   },
   "localDependencies": {
     "dependency0": "test/dependency0.js",
     "dependency1": "test/dependency1.js"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "2.4.5"
   }
 }
